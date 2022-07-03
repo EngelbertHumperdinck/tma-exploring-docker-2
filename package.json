@@ -1,17 +1,17 @@
 {
   "name": "docker-node-mongo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just learning about Docker from Brad Traversy!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["docker", "node.js", "mongodb"],
+  "author": "BigSteveLittle<bigsteve@redandblackzone.com>",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.7"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
   }
 }

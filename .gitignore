@@ -1,1 +1,11 @@
+# GLOBAL .GITIGNORE
+
+.dccache
+.DS_Store
+.vscode/
+archives/
+Icon?
 node_modules
+resources/
+sqltools_20220618165333_24939.log
+vendor/
