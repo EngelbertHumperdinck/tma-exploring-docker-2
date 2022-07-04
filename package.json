@@ -6,7 +6,11 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["docker", "node.js", "mongodb"],
+  "keywords": [
+    "docker",
+    "node.js",
+    "mongodb"
+  ],
   "author": "BigSteveLittle<bigsteve@redandblackzone.com>",
   "license": "ISC",
   "dependencies": {
