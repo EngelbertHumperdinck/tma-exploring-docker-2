@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app: 
+    container_name: docker-node-mongo
+    restart: always # If it fails it will restart.
+    build: . # Will look in the root directory for a 'Dockerfile' and run it.
+    ports:
+      - '80:3000' # Defines the port for the container to run on.
+    links: 
+      - mongo
+  mongo: 
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017' # Defines the port for the container to run on.
+
+
